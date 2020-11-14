@@ -9,5 +9,8 @@ html{
 }
 
 body {
-    font-size: 1.6rem;
+    color: #4a4a4a;
+    font-size: 1.8rem;
+    font-weight: 400;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
