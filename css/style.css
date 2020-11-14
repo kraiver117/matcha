@@ -6,8 +6,10 @@
 
 :root {
     --primary-color: #025157;
+    --background-secondary-color-button:#6abf4b;
     --sub-headers-color:#343434;
     --text-button-color:#fff;
+
 }
 
 html{
@@ -19,4 +21,58 @@ body {
     font-size: 1.8rem;
     font-weight: 400;
     font-family: 'IBM Plex Sans', sans-serif;
+}
+
+/*Header styles*/
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height:150px;
+    width: 100%;
+    padding: 0px;
+    font-size: 1.6rem;
+}
+
+header * {
+    color: var(--primary-color);
+}
+
+header > nav > ul {
+    display: flex;
+    list-style: none;
+}
+
+header li {
+    margin: 0px 20px;
+}
+
+header a{
+    text-decoration: none;
+
+}
+
+header a:hover{
+    text-decoration: underline; 
+}
+
+.logo {
+    height: 40px;
+}
+
+.btn-header {
+    color: var(--text-button-color);
+    padding: 1.5rem 2rem;
+    border-radius: 1rem;
+    background-color: var(--primary-color);
+}
+
+.btn-header:hover {
+    text-decoration: none;
+    background-color: var(--background-secondary-color-button);
+}
+
+.actions a {
+    margin-right: 2rem;
 }
