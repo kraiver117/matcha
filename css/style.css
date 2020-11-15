@@ -321,6 +321,123 @@ main {
     min-width: 38px;
 }
 
+/*Podcast & blog section styles*/
+.podcast-blog-container {
+    display: grid;
+    grid-template-columns: repeat(2, 640px);
+    grid-template-rows: repeat(2, 300px);
+    gap: 40px;
+    justify-content: center;
+}
+
+.podcast-blog-container article {
+    border-radius: 10px;
+    padding: 20px 35px;
+    border: 1px solid #868e96;
+}
+
+.podcast-blog-item-1 {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-size: cover;
+    background-image: url('https://getmatcha.com/wp-content/themes/getmatcha/img/gfx/blocks/masters.jpg');
+}
+
+.podcast-blog-item-2 {
+    position: relative;
+    color: #4a4a4a;
+    display: flex;
+    flex-direction: row;
+    color: #868e96;
+    border: 1px solid #868e96;
+    align-items: center;
+    overflow: hidden;
+}
+
+.podcast-blog-item-2__content {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 280px;
+}
+
+.podcast-blog-item-2__content > h1{
+    font-size: 34px;
+    color: #025157;
+}
+
+.podcast-blog-item-2__content > p{
+    font-size: 20px;
+    color: #868e96;
+}
+
+.podcast-blog-item-2__content > a, .podcast-blog-item-4__content > a {
+    color: #6abf4b;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.podcast-blog-item-2 .mocks-imgs {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 44%;
+    height: 100%;
+}
+
+.podcast-blog-item-3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    color: #868e96;
+    background-image:linear-gradient(#fff 20%,#fade82 40%,#fade82 100%);
+    font-size: 20px;
+    color: #135359;
+    text-align: center;
+}
+
+.podcast-blog-item-3 > p {
+    width: 80%;
+}
+
+.podcast-blog-item-3 > a {
+    color: #135359;
+    text-decoration: none;  
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.podcast-blog-item-4 {
+    color: white;
+    background-color:#035157 ;
+    background-image: url("https://getmatcha.com/wp-content/themes/getmatcha/css/../img/gfx/blocks/toolkit.jpg");
+    background-repeat: no-repeat;
+    background-position: 100% 44%;
+    background-size: auto 145%; 
+}
+
+.podcast-blog-item-4__content {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 26px;
+}
+
+.podcast-blog-item-4__content > * {
+    margin-bottom: 20px;
+}
+
 /*footer styles */
 .footer_container {
     display: flex;
