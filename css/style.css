@@ -35,7 +35,8 @@ body {
 
 .container {
     width: 100%;
-    padding: 0px 60px;
+    padding: 0px 200px;
+    margin-top: 190px;
 }
 
 .btn {
@@ -51,6 +52,21 @@ body {
 
 div {
     display: block;
+}
+
+img{
+    max-width: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+h1, h2, h3, h4, h5 {
+    margin-top: 5px;
+    margin-bottom: 15px;
 }
 
 /*Header styles*/
@@ -110,15 +126,16 @@ header a:hover{
 
 /* Main section */
 main {
-    position: relative;
     margin-top: 200px;
     display: flex;
     flex-flow: row wrap;
-    height: 600px;
 }
 
 .main_content {
-    max-width: 44%;
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+
 }
 
 .main_content h1 {
@@ -155,40 +172,38 @@ main {
 
 .video_imgs {
     width: 100%;
-    height: 100%;
-    max-width: 56%;
     position: relative;
 }
 
+.video_imgs img {
+}
+
+.video_imgs * {
+    position: absolute;
+}
+
 .video_img-1 {
-    left: 200px;
-    transform: translate(50%,-15%);
-    width: 46.1%;
+    transform: translate(50%,0%);
 }
 
 .video_img-2 {
-    transform: translate(-100%, -253%);
-    width: 42%;
+    transform: translate(0%, 0%);
 }
 
 .video_img-3 {
-    transform: translate(130%, -850% );
-    width: 35%;
+    transform: translate(0%, 0% );
 }
 
 .video_img-4 {
-    transform: translate(-110%, -295%);
-    width: 29%;
+    transform: translate(0%, 0%);
 }
 
 .video_img-5 {
-    transform: translate(30%, -150%);
-    width: 38%;
+    transform: translate(0%, 0%);
 }
 
 .video_img-6 {
-    transform: translate(72%,-480%);
-    width: 38%;
+    transform: translate(0%,0%);
 }
 
 .main_logos_container {
@@ -206,3 +221,41 @@ main {
     margin-top: 30px;
 }
 
+
+/*Top features styles */
+
+.top_features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top_features_header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.top_features h1 {
+    font-size: 55px;
+    font-weight: 700;
+    color: #025157;
+    letter-spacing: -3px;
+    font-family: 'PT Serif', serif;
+}
+
+.top-features-cards {
+    display: flex;
+    text-align: center;
+    gap: 20px;
+}
+
+.top-features-cards article {
+    min-width: 33.3%;
+}
+.feature-img {
+    overflow: hidden;
+    border-radius: 9px;
+    border: 1px solid #dadada;
+}
