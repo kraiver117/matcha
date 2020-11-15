@@ -309,3 +309,25 @@ main {
     height: 60px;
     min-width: 38px;
 }
+
+/*footer styles */
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.footer_container  p{
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 1.6rem;
+    text-align: right;
+    letter-spacing: -.5px;
+    color: #4a4a4a;
+}
+
+.footer_icons *{
+    margin-right: 10px;
+}
