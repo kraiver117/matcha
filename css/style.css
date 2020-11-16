@@ -39,6 +39,10 @@ body {
     margin-top: 190px;
 }
 
+.primary-color {
+    color: var(--primary-color);
+}
+
 .btn {
     border-radius: 5px;
     text-decoration: none;
@@ -47,6 +51,15 @@ body {
 
 .btn-green {
     color: #fff;
+    background-color: var(--background-secondary-color-button);
+}
+
+.btn-dark-green {
+    color: #fff;
+    background-color: var(--primary-color);
+}
+
+.btn-dark-green:hover {
     background-color: var(--background-secondary-color-button);
 }
 
@@ -80,8 +93,20 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+.mt-1 {
+    margin-top: 10px;
+}
+
 .text-center {
     text-align: center;
+}
+
+.header-h1 {
+    font-size: 55px;
+    font-weight: 700;
+    color: #025157 !important;
+    letter-spacing: -3px;
+    font-family: 'PT Serif', serif;
 }
 
 /*Header styles*/
@@ -301,6 +326,7 @@ main {
     height: 320px;
     border: 1px solid #dadada;
     text-align: center;
+    background-color: #fff;
 }
 
 .tools_item p {
@@ -321,6 +347,40 @@ main {
     height: 60px;
     min-width: 38px;
 }
+
+/*Carousel Section */
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.card {
+    border: 1px solid #dadada;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.card img {
+    max-width: none !important;
+}
+
+.card_cart_section{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.card_body {
+    margin: 20px;
+}
+
+.carousel_left_info {
+    display: flex;
+    flex-direction: column;
+}
+
 
 /* Compare section */
 .compare_container {
