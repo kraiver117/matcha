@@ -23,7 +23,6 @@ body {
     font-family: 'IBM Plex Sans', sans-serif;
     background-color: #fffbf7;
 }
-
 /*General styles*/
 .fixed-top {
     position: fixed;
@@ -110,7 +109,6 @@ h1, h2, h3, h4, h5 {
 }
 
 /*Header styles*/
-
 header {
     display: flex;
     align-items: center;
@@ -172,10 +170,9 @@ main {
 }
 
 .main_content {
-    position: relative;
     display: flex;
     flex-flow: row nowrap;
-
+    width: 100%;
 }
 
 .main_content h1 {
@@ -210,6 +207,14 @@ main {
     text-align: left;
 }
 
+.main_left_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px;
+    margin-bottom: 100px;
+}
+
 .video_imgs {
     width: 100%;
     position: relative;
@@ -221,26 +226,32 @@ main {
 
 .video_img-1 {
     transform: translate(50%,0%);
+
 }
 
 .video_img-2 {
-    transform: translate(0%, 0%);
+    transform: translate(0%, 27%);
+
 }
 
 .video_img-3 {
-    transform: translate(0%, 0% );
+    transform: translate(150%, 340%);
+
 }
 
 .video_img-4 {
-    transform: translate(0%, 0%);
+    transform: translate(20%, 200%);
+
 }
 
 .video_img-5 {
-    transform: translate(0%, 0%);
+    transform: translate(150%, 190%);
+
 }
 
 .video_img-6 {
-    transform: translate(0%,0%);
+    transform: translate(70%,255%);
+
 }
 
 .main_logos_container {
