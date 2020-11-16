@@ -96,6 +96,10 @@ h1, h2, h3, h4, h5 {
     margin-top: 10px;
 }
 
+.mt-2 {
+    margin-top: 20px;
+}
+
 .text-center {
     text-align: center;
 }
@@ -106,6 +110,10 @@ h1, h2, h3, h4, h5 {
     color: #025157 !important;
     letter-spacing: -3px;
     font-family: 'PT Serif', serif;
+}
+
+.max-width-1 {
+    max-width: 250px;
 }
 
 /*Header styles*/
@@ -140,6 +148,10 @@ header a{
 
 header a:hover{
     text-decoration: underline; 
+}
+
+.header_mobile {
+    display: none;
 }
 
 .logo {
@@ -373,10 +385,6 @@ main {
     background-color: #fff;
 }
 
-.card img {
-    max-width: none !important;
-}
-
 .card_cart_section{
     display: flex;
     gap: 10px;
@@ -437,6 +445,10 @@ main {
     padding: 10px 20px;
 }
 
+.compare_mobile_container {
+    display: none;
+}
+
 
 /*Podcast & blog section styles*/
 .podcast-blog-container {
@@ -450,7 +462,7 @@ main {
 .podcast-blog-container article {
     border-radius: 10px;
     padding: 20px 35px;
-    border: 1px solid #868e96;
+    border: 1px solid #dadada;
 }
 
 .podcast-blog-item-1 {
