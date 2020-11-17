@@ -1,0 +1,69 @@
+@media (max-width:1440px){
+
+    /*General Styles */
+    .container {
+        width: 100%;
+        padding: 0px 40px;
+        margin-top: 70px;
+    }
+
+    /*Header Styles */
+    header {
+        display: none;
+    }
+
+    .header_mobile {
+        display: flex;
+        justify-content: space-between;
+        height: 60px;
+        padding: 0px 10px;
+    }
+
+    /*Main section Styles */
+    .main_content {
+        flex-wrap: wrap;
+    }
+
+    .video_imgs {
+        display: none;
+        position: relative;
+        height: 530px;
+    }
+
+    .main_left_content {
+        margin-bottom: 0px;
+    }
+
+    /*Tools section styles*/
+    .tools_article_container {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    /* Carousel section styles */
+    .carousel {
+        flex-direction: column;
+    }
+
+    .carousel .card {
+        margin: 0px 150px;
+    }
+
+    /*Top Features Styles */
+    .top-features-cards {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 120px;
+    }
+
+
+    /* Podcast and blog section styles */
+    .podcast-blog-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+}
